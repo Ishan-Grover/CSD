@@ -1,0 +1,8 @@
+#include<p18f452.inc>
+org 000H;
+MOVLW 10H
+ADDWF 25H
+MOVWF 50H
+END
+
+
